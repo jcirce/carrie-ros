@@ -190,4 +190,6 @@ class StanleyController:
 			print(f'target_idx={target_idx} theta_e={theta_e} cross_track_error={cross_track_error} delta={delta} curv={curv} path_yaw={path_yaw}')
 			pass
 
-		return curv, cross_track_error, dist_to_path, rx, ry
+		return curv, cross_track_error, dist_to_path, rx, ry, delta, v
+	
+	
